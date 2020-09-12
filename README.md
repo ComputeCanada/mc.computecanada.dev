@@ -1,8 +1,8 @@
 # mc.computecanada.dev
 
-This project uses [Ansible MCUI](https://github.com/ComputeCanada/ansible-mcui) to deploy the [Magic Castle UI](https://github.com/ComputeCanada/magic_castle-ui) web application on [mc.computecanada.dev](https://mc.computecanada.dev). It adds the required encrypted configuration files (including API keys and cryptographic keys) to deploy the full application.
+This project uses [Ansible MC Hub](https://github.com/ComputeCanada/ansible-mc-hub) to deploy the [MC Hub](https://github.com/ComputeCanada/mc-hub) web application on [mc.computecanada.dev](https://mc.computecanada.dev). It adds the required encrypted configuration files (including API keys and cryptographic keys) to deploy the full application.
 
-> If you are not an employee of Compute Canada or are not authorized to deploy to `mc.computecanada.dev`, you may instead setup your own web server with [Ansible MCUI](https://github.com/ComputeCanada/ansible-mcui) or simply [Magic Castle UI](https://github.com/ComputeCanada/magic_castle-ui).
+> If you are not an employee of Compute Canada or are not authorized to deploy to `mc.computecanada.dev`, you may instead setup your own web server with [Ansible MC Hub](https://github.com/ComputeCanada/ansible-mc-hub) or simply [MC Hub](https://github.com/ComputeCanada/mc-hub).
 
 ## Getting the required authorizations
 
