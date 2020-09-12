@@ -4,7 +4,7 @@ This project uses [Ansible MC Hub](https://github.com/ComputeCanada/ansible-mc-h
 
 > If you are not an employee of Compute Canada or are not authorized to deploy to `mc.computecanada.dev`, you may instead setup your own web server with [Ansible MC Hub](https://github.com/ComputeCanada/ansible-mc-hub) or simply [MC Hub](https://github.com/ComputeCanada/mc-hub).
 
-## Getting the required authorizations
+## Getting the required deployment authorizations
 
 In order to deploy and maintain `mc.computecanada.dev`, you need to send a private message to Frédéric Fortier-Chouinard (me) on Slack or open an issue on Github.
 
@@ -32,6 +32,9 @@ Then, you can ask to have your SSH key pair authorized to deploy the Ansible pla
     ````
     > git-crypt uses your GPG private keys to try to decrypt the content of secret files. Make sure GPG has access to a private key that is authorized by the project. Otherwise, decryption will fail.
 
+## Authorizing users with LDAP
+
+This project only allows access to users that have the LDAP attribute `ccServiceAccess` set to `cc_mchub`.
 
 ## Running the playbook
 

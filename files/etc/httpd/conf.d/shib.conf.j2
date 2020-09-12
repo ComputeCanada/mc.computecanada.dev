@@ -46,7 +46,7 @@ Alias /shibboleth-sp/main.css /usr/share/shibboleth/main.css
     AuthType shibboleth
     ShibUseHeaders On
     ShibRequestSetting requireSession 1
-    require shib-session
+    require shib-attr ccServiceAccess cc_mchub
 
     # Reverse proxy configuration
     ProxyPreserveHost On
