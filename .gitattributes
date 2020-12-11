@@ -1,4 +1,5 @@
-files/etc/shibboleth/*.pem filter=git-crypt diff=git-crypt
+shibboleth-crypto/* filter=git-crypt diff=git-crypt
+logstash-servers.crt filter=git-crypt diff=git-crypt
 clouds.yaml filter=git-crypt diff=git-crypt
 gcloud-key.json filter=git-crypt diff=git-crypt
 configuration.json filter=git-crypt diff=git-crypt

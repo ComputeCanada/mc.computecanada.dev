@@ -1,0 +1,3 @@
+[submodule "ansible-mc-hub"]
+	path = ansible-mc-hub
+	url = https://github.com/ComputeCanada/ansible-mc-hub.git

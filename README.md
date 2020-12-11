@@ -50,7 +50,7 @@ This project only allows access to users that have the LDAP attribute `ccService
 3. Run the Ansible playbook.
 
     ````bash
-    ansible-playbook -i hosts.yml site.yml
+    ansible-playbook -i hosts.yml ansible-mc-hub/site.yml
     ````
 
 3. Navigate to `mc.computecanada.dev` and make sure everything is working correctly.
