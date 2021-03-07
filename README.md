@@ -22,7 +22,7 @@ Then, you can ask to have your SSH key pair authorized to deploy the Ansible pla
 
 1. Clone this repository.
     ````
-    git clone https://github.com/ComputeCanada/mc.computecanada.dev
+    git clone --recurse-submodules https://github.com/ComputeCanada/mc.computecanada.dev
     ````
 
 2. Decrypt the configuration files.
