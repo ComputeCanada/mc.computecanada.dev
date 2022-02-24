@@ -1,0 +1,12 @@
+all:
+  hosts:
+    mc.computecanada.dev:
+      ansible_user: rocky
+      default_cloud: "arbutus:training"
+      fqdn: mc.computecanada.dev
+      saml_identity_provider_metadata_url:  https://idp.computecanada.ca/idp/shibboleth
+      saml_identity_provider_entity_id:  https://idp.computecanada.ca/idp/shibboleth
+      logstash_hosts:
+        - cc-beats.sharcnet.ca:5044
+      server_admin_email: felix@calculquebec.ca
+      mc_hub_version: "v9.0.0-rc.22"
