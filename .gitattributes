@@ -4,3 +4,4 @@ clouds.yaml filter=git-crypt diff=git-crypt
 gcloud-key.json filter=git-crypt diff=git-crypt
 configuration.json filter=git-crypt diff=git-crypt
 user-project.yaml filter=git-crypt diff=git-crypt
+acme_key.pem filter=git-crypt diff=git-crypt
