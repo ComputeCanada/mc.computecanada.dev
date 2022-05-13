@@ -2,6 +2,7 @@ all:
   hosts:
     mc.computecanada.dev:
       ansible_user: rocky
+      github_user: cmd-ntrf
       default_cloud: "arbutus:training"
       fqdn: mc.computecanada.dev
       saml_identity_provider_metadata_url:  https://idp.alliancecan.ca/idp/shibboleth
