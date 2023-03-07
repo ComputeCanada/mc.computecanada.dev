@@ -10,5 +10,5 @@ all:
       logstash_hosts:
         - cc-beats.sharcnet.ca:5044
       server_admin_email: felix@calculquebec.ca
-      mc_hub_version: "v9.2.11"
+      mc_hub_version: "v9.2.13"
 
